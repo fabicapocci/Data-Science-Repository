@@ -43,6 +43,9 @@ The project includes missing-value analysis, feature distributions, correlation 
 - Imbalanced-learn
 - Classification
 - Regression
+- Natural Language Processing
+- Neural Networks
+- TF-IDF
 - PCA
 - SMOTE
 - Hyperparameter Tuning
@@ -62,4 +65,23 @@ The project includes missing-value analysis, feature distributions, correlation 
 
 Each project is organized into its own directory with a project-specific README and Jupyter Notebook containing the complete analysis, code, visualizations, results, and conclusions.
 
-Additional machine learning and data science projects will be added as the portfolio develops.
+This portfolio will continue to expand with additional machine learning, data science, and software development projects.
+[View Project](./01-hr-analytics-eda/)
+
+---
+
+### 3. Fake News Detection with NLP and Neural Networks
+
+Applied Natural Language Processing techniques to classify news articles using their textual content.
+
+The project compares Multinomial Naive Bayes with a Multi-Layer Perceptron neural network for fake-vs-real news detection and includes a separate multi-class experiment for predicting news subject categories.
+
+**Models:** Multinomial Naive Bayes, Multi-Layer Perceptron (MLP)
+
+**Techniques:** NLP, TF-IDF, Count Vectorization, Neural Networks, Multi-Class Classification
+
+**Best Binary Classification Accuracy:** ~99.1% with MLP
+
+[View Project](./03-deep-learning-nlp/)
+
+## Skills & Technologies
