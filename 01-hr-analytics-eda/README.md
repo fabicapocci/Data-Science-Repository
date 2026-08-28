@@ -1,33 +1,43 @@
-# HR Analytics — Exploratory Data Analysis
+# Data Science & Machine Learning Portfolio
 
-## Overview
+Hi, I'm Fabrizzio Capocci, a Computer Science student with an interest in data science, machine learning, and software development.
 
-This project performs exploratory data analysis on HR candidate data to
-investigate patterns associated with whether candidates are looking for
-a job change.
+This portfolio contains selected projects demonstrating my experience with exploratory data analysis, data preprocessing, feature engineering, machine learning, model evaluation, and data visualization.
 
-## Analysis
+## Technical Skills
 
-- Dataset exploration
+**Languages & Tools:** Python, Jupyter Notebook, Git, GitHub
+
+**Data Analysis:** Pandas, NumPy, SciPy
+
+**Data Visualization:** Matplotlib, Seaborn, Missingno
+
+**Machine Learning:** Scikit-learn, Imbalanced-learn
+
+**Techniques:** Exploratory Data Analysis, Feature Engineering, Data Preprocessing, Classification, Regression, PCA, SMOTE, Hyperparameter Tuning, Model Evaluation
+
+## Projects
+
+### 1. HR Analytics — Exploratory Data Analysis
+
+Exploratory analysis of candidate data to investigate factors associated with whether candidates are looking for a job change.
+
+**Key topics:**
 - Missing-value analysis
-- Categorical feature analysis
-- Numerical feature analysis
+- Categorical and numerical feature analysis
+- Data visualization
 - Correlation analysis
 - Outlier detection
 - Feature engineering
-- Experience categorization
+- Class imbalance analysis
 
-## Technologies
+➡️ [View HR Analytics EDA Project](./01-hr-analytics-eda/)
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Missingno
-- SciPy
-- Scikit-learn
+---
 
+## About This Portfolio
+
+These projects began as academic work and have been organized and refined to demonstrate practical data science and machine learning skills. Each project includes the code, visualizations, results, and interpretation of the analysis.
 ## Project Files
 
 - `hr_analytics_eda.ipynb` — Complete Jupyter Notebook containing the
