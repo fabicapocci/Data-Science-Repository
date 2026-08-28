@@ -2,48 +2,68 @@
 
 ## Overview
 
-This project develops and evaluates machine learning classification models to predict whether a candidate is likely to be looking for a job change.
+This project applies machine learning classification techniques to predict whether a candidate is likely to be looking for a job change.
 
-The project covers the complete machine learning workflow, including data preprocessing, class imbalance handling, dimensionality reduction, model training, hyperparameter tuning, and model evaluation.
+The project focuses on building and comparing multiple classification models while addressing challenges such as categorical data, feature preprocessing, dimensionality reduction, and class imbalance.
 
-## Machine Learning Workflow
+## Project Workflow
 
-- Data preprocessing and feature transformation
+The analysis includes:
+
+- Exploratory data analysis
+- Missing-value analysis
 - Categorical feature encoding
-- Feature scaling
-- Train/test splitting
-- Class imbalance handling with SMOTE
-- Principal Component Analysis (PCA)
+- Feature scaling using MinMaxScaler
+- Stratified train/test splitting
+- Class balancing using SMOTE
+- Dimensionality reduction using PCA
 - Hyperparameter tuning with GridSearchCV
 - Model training and comparison
-- Classification performance evaluation
+- Evaluation using multiple classification metrics
 
-## Models
+## Machine Learning Models
 
-The following classification algorithms are explored:
+The following models were evaluated:
 
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Gaussian Naive Bayes
-- Categorical Naive Bayes
 - Support Vector Machine (SVM)
 - Decision Tree
 - Random Forest
 - AdaBoost
 - Gradient Boosting
 
-## Evaluation
+## Model Evaluation
 
-Models are evaluated using several classification metrics, including:
+Because the target variable is imbalanced, model performance was evaluated using more than accuracy alone.
+
+Metrics included:
 
 - Accuracy
 - Precision
 - Recall
 - F1-score
-- Confusion Matrix
-- ROC Curve
 - ROC-AUC
-- Precision-Recall Curve
+- Confusion matrices
+
+Gradient Boosting achieved the highest overall accuracy at approximately **86%**. AdaBoost provided a strong balance between precision and recall for the positive class, while Gaussian Naive Bayes achieved the highest positive-class recall but produced substantially more false positives.
+
+These results demonstrate the importance of considering multiple evaluation metrics when working with imbalanced classification problems.
+
+## Key Techniques
+
+### Class Imbalance
+
+SMOTE (Synthetic Minority Over-sampling Technique) was used on the training data to increase representation of the minority class and improve the models' ability to identify candidates looking for a job change.
+
+### Dimensionality Reduction
+
+Principal Component Analysis (PCA) was evaluated to determine whether reducing the dimensionality of the feature space could improve model performance.
+
+### Hyperparameter Tuning
+
+GridSearchCV was used to evaluate different hyperparameter configurations for selected models.
 
 ## Technologies
 
@@ -56,6 +76,6 @@ Models are evaluated using several classification metrics, including:
 - Imbalanced-learn
 - Jupyter Notebook
 
-## Project Files
+## Project File
 
-- `hr_classification.ipynb` — Complete machine learning analysis, model training, evaluation, and results.
+[`Classification.ipynb`](./Classification.ipynb)
