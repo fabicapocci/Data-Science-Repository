@@ -85,3 +85,22 @@ The project compares Multinomial Naive Bayes with a Multi-Layer Perceptron neura
 [View Project](./03-deep-learning-nlp/)
 
 ## Skills & Technologies
+- Unsupervised Learning
+- K-Means Clustering
+- Agglomerative Clustering
+- Silhouette Analysis
+---
+
+### 4. HR Candidate Segmentation with Clustering
+
+Applied unsupervised machine learning techniques to identify meaningful candidate segments within an HR dataset.
+
+The project compares K-Means and Agglomerative Clustering while using feature standardization, the elbow method, silhouette analysis, hierarchical clustering, and cluster profiling to evaluate and interpret the resulting groups.
+
+**Models:** K-Means, Agglomerative Clustering
+
+**Techniques:** Unsupervised Learning, Clustering, Feature Standardization, Elbow Method, Silhouette Analysis, Hierarchical Clustering
+
+**Key Result:** The two-cluster K-Means solution produced a silhouette score of approximately 0.233 and identified candidate segments with notably different job-change rates.
+
+[View Project](./04-hr-clustering/)
